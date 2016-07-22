@@ -1,0 +1,27 @@
+{
+  "name": "metro-analytics",
+  "version": "0.0.1",
+  "description": "Calculate statistics that can be consumed by front-ends",
+  "main": "bin/calculate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osoc16/metro-analytics.git"
+  },
+  "keywords": [
+    "Linked",
+    "Connections"
+  ],
+  "author": "Pieter Colpaert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osoc16/metro-analytics/issues"
+  },
+  "homepage": "https://github.com/osoc16/metro-analytics#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "lc-client": "0.0.12"
+  }
+}
