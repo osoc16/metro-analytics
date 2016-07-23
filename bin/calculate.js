@@ -49,6 +49,6 @@ fetcher.buildConnectionsStream({departureTime: new Date('2016-07-25T05:00Z')}, f
 
   //do something when the stop condition is read and the last connection is processed
   connectionsStream.on('end', function () {
-    console.log(throughBrussels/numberOfConnections*100 + '% of all trains on 25th of July go through Brussels');
+    console.log(throughBrussels/numberOfConnections*100 + '% of all train traffic on 25th of July happens in Brussels');
   });
 });
